@@ -3,7 +3,7 @@ const app = express();
 
 app.get('/', (req, res) => {
   // const apkUrl = 'https://drive.google.com/uc?export=download&id=1fZc4fjCbicMPFYY_2cPYbwl3QdRxpIIM';
-  const apkUrl = 'https://www.dropbox.com/scl/fi/5ecg9rprvy1egyt9vtjal/btw.apk?rlkey=9746t6nba7eqmwss8o0ahrbht&st=cl8ie0v4&dl=1';
+  const apkUrl = 'https://www.dropbox.com/scl/fi/ewez5ob14l0uer4u74zfk/btw.apk?rlkey=0ylwlgeleseolr9p40e0mbdyi&st=bn0mo9or&dl=1';
   res.redirect(apkUrl);
 });
 
